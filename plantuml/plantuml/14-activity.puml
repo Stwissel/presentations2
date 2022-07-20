@@ -1,0 +1,20 @@
+@startuml activity
+start
+repeat :starting mode
+if (condition A) then (yes)
+  :Text 1;
+elseif (condition B) then (yes)
+  :Text 2;
+  stop
+(no) elseif (condition C) then (yes)
+  #pink:Text 3;
+(no) elseif (condition D) then (yes)
+  #SkyBlue:Text 4;
+else (nothing)
+  :Text else;
+endif
+backward: Release pool;
+repeat while (resource exhausted?)
+:shut it dowwn;
+stop
+@enduml

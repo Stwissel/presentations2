@@ -1,0 +1,16 @@
+@startboard SampleBoard
+skinparam handwritten true
+Activity 1
++User Task 1a
+++Story 1 Release 1
+++Story 2 Release 1
++User Task 1b
+++Story 3 Release 1
++++Story 4 Release 1
+++++Story 5 Release 2
+
+Activity 2
++User Task 2
++++Story 6 Release 1
++++Story 7 Release 1
+@endboard

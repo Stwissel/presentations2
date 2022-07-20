@@ -1,0 +1,10 @@
+@startgantt Miniproject
+[Prototype design] lasts 10 days
+[Code prototype] lasts 10 days
+[Write tests] lasts 5 days
+[Celebrate] lasts 3 days
+[Code prototype] starts at [Prototype design]'s end
+[Write tests] starts at [Code prototype]'s start
+[Celebrate] starts at [Write tests]'s end
+[Celebrate] is colored in Fuchsia/FireBrick
+@endgantt

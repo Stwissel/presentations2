@@ -1,0 +1,20 @@
+@startuml classic
+abstract DbRequest {
+    send()
+    Payload data
+}
+enum GlobalState {
+    Credentials db
+    Logger logger
+    reset()
+}
+class DbRequestOracle {
+    #String Delphi
+    ~predict()
+}
+note left #SkyBlue:  Wity comment\nover lines
+
+DbRequestOracle --|> DbRequest
+GlobalState - DbRequest: > Credentials
+
+@enduml

@@ -1,0 +1,23 @@
+@startjson Sample
+{
+    "name" : "Peter Pan",
+    "adversaries" : [
+        {
+          "name" : "hook",
+         "peril" : "saber"
+        },
+        {
+            "name" : "croc",
+            "peril" : "teeth"
+        }
+    ],
+    "food" : {
+        "chicken" : true,
+        "ice cream" : true,
+        "vegetables" : false
+    },
+    "age" : 12,
+    "crush": "Tinkerbell",
+    "hero" : true
+}
+@endjson

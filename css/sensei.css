@@ -1,0 +1,17 @@
+body {
+  font-family: "Jetbrain Mono", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 30px;
+}
+li {
+  margin: 15px;
+  padding: 10px;
+  background-color: #cccccc;
+}
+
+a:hover {
+  color: red;
+}
+
+ul {
+  list-style: none;
+}

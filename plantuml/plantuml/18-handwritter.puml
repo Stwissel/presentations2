@@ -1,0 +1,17 @@
+@startuml Hollow Man
+skinparam actorStyle Hollow
+skinparam handwritten true
+autonumber
+actor Joe
+participant Alice
+participant Bob
+database Customers
+Joe -> Customers: hacks
+Customers [#blue]-> Alice: alerts
+group Fight back
+   Alice -->> Bob: dispatches
+   Alice --x Customers: shut down
+   Bob o-> Joe: smack down
+end
+Alice -> Customers: Recover
+@enduml

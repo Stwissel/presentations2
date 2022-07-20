@@ -1,0 +1,47 @@
+@startyaml DockerCompose
+version: "3.9"
+services:
+  mariadb:
+    image: ${VOLTMX_MARIADB_IMAGE}
+    restart: always
+    healthcheck:
+      test: /voltmx/healthcheck.sh
+      interval: 1m30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD} 
+    volumes:
+      - type: volume
+        source: voltmx-db-vol
+        target: /var/lib/mysql
+
+  foundry:
+    image: ${VOLTMX_FOUNDRY_IMAGE}
+    restart: always
+    ports:
+      - 8080:8080
+    volumes:
+      - type: volume
+        source: keys-vol
+        target: /home/hcl/keys  
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - SERVER_HOST=foundry
+      - DB_SERVER_HOST=mariadb
+      - USE_TLS=false
+      - SERVER_PORT=8080
+    depends_on:
+      mariadb:
+        condition: service_healthy
+
+volumes:
+  voltmx-db-vol:
+    external: false
+  keys-vol:
+    external: false
+
+@endyaml

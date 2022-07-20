@@ -1,0 +1,9 @@
+@startuml BrightLight
+start
+if("大光明") then (yes)
+  :solve all\nproblems;
+else (no)
+   :ask for\nhelp;
+endif  
+stop
+@enduml

@@ -1,0 +1,20 @@
+@startwbs Skills - startmindmap
+*[#SkyBlue] Joe Developer
+**[#LightGreen] Java
+***_ JEE: 8
+***_ Reactive: 4
+***_ JUnit: 6
+***_ Quarkus: 5
+***[#pink] Streams: 9
+***_ Java17: 3
+** Web
+***_ HTML: 10
+***_ CSS : 4
+***_ JavaScript: 7
+***[#pink] ReactJS: 8
+***_ Angular: 4
+***_ Selenium: 3
+** Project
+***[#pink] Scrum : 8
+***_ Kanban: 5
+@endwbs

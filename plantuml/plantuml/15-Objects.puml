@@ -1,0 +1,21 @@
+@startuml Class
+
+object customer {
+  name = "John Kunde"
+  id = 123
+}
+
+object product {
+  name = "Car"
+  id = 778
+}
+
+object invoice {
+  id = I76
+}
+
+invoice *-- product
+invoice *-- customer
+
+@enduml
+

@@ -1,0 +1,18 @@
+@startuml
+title Bracketed line style mix
+node foo
+actor bar
+component bar1
+cloud bar2
+database bar3
+package bar4
+hexagon bar5
+stack bar6
+foo --> bar                             : ∅
+bar -[#red,thickness=1]-> bar1          : [#red,1]
+bar -[#red,dashed,thickness=2]-> bar2   : [#red,dashed,2]
+foo -[#green,dashed,thickness=4]-> bar3 : [#green,dashed,4]
+bar3 -[#blue,dotted,thickness=8]-> bar4  : [blue,dotted,8]
+bar6 -[#blue,plain,thickness=16]-> bar5  : [blue,plain,16]
+foo -[#blue;#green,dashed,thickness=4]-> bar6  : [blue;green,dashed,4]
+@enduml
