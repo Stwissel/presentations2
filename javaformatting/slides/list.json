@@ -1,0 +1,59 @@
+[
+    "index.md",
+    {
+        "attr": {
+            "data-background": "slides/img/wordle.png",
+            "data-background-size": "contain"
+        }
+    },
+    [
+        "slide-1.md",
+        "paul.html",
+        "stephan.html",
+        {
+            "attr": {
+                "data-background": "slides/img/NoHarm.png",
+                "data-background-size": "contain"
+            }
+        },
+        "lab.html"
+    ],
+    [
+        "slide-4.md",
+        "slide-4-1.html",
+        "slide-4-2.md",
+        "slide-4-3.md",
+        "slide-4-4.md"
+    ],
+    [
+        "slide-5.md",
+        "slide-5-1.md",
+        "slide-5-2.md",
+        "slide-5-3.md",
+        "slide-5-4.md"
+    ],
+    "demo.md",
+    [
+        "slide-6.md",
+        "slide-6-1.md",
+        "slide-6-2.md",
+        "slide-6-3.md",
+        "slide-6-4.md",
+        "slide-6-5.md",
+        "demo.md"
+    ],
+    ["key-elements.md", "key-element1.md", "key-element2.md", "key-element3.md", "key-element4.md"],
+    "getting-started.md",
+    "thank-you.md",
+    [
+        "one-last-thing-attached.md",
+        "demo.md",
+        "one-last-thing.md",
+        "demo.md",
+        "one-last-thing-alexa.md",
+        "demo.md",
+        "one-last-thing-sfdc.md",
+        "demo.md"
+    ],
+    "thank-you.md"
+]
