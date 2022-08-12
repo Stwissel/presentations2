@@ -1,6 +1,7 @@
 # Reading list
 
 - https://vertx.io
+- https://how-to.vertx.io
 - https://reactivex.io/
 - https://www.manning.com/books/vertx-in-action
 - https://discord.gg/6ry7aqPWXy
