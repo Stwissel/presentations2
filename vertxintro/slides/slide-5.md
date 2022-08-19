@@ -1,4 +1,4 @@
-# Vert.x the basics
+## Vert.x the basics
 
 ```java
 Vertx vertx = Vertx.vertx();

@@ -1,5 +1,7 @@
 # Maven lifecyle
 
+---
+
 ## Default lifecyle
 
 - validate
@@ -9,6 +11,8 @@
 - verify
 - install
 - deploy
+
+---
 
 ## Others
 

@@ -1,10 +1,12 @@
-# maven site
+## maven site
 
 - Not part of default lifecyle
 - reports & documentation
 - can run local
 
-## Reports
+---
+
+### Reports
 
 - Dependencies
 - Versions & License

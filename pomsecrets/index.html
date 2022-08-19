@@ -2,197 +2,116 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-
     <title>Secrets of the POM</title>
-
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta
       name="apple-mobile-web-app-status-bar-style"
-      content="black-translucent"
+      content="white-translucent"
     />
 
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="../bower_components/reveal.js/css/reveal.css"
-    />
+    <link rel="stylesheet" href="../reveal/reset.css" />
+    <link rel="stylesheet" href="../reveal/reveal.css" />
+    <link rel="stylesheet" href="../reveal/theme/white.css" id="theme" />
 
-    <link rel="stylesheet" href="../css/theme.css" id="theme" />
-
-    <!-- For syntax highlighting -->
-    <link
-      rel="stylesheet"
-      href="../bower_components/highlightjs/styles/zenburn.css"
-    />
-
-    <!-- Printing and PDF exports -->
-    <script>
-      var link = document.createElement("link");
-      link.rel = "stylesheet";
-      link.type = "text/css";
-      link.href = window.location.search.match(/print-pdf/gi)
-        ? "../bower_components/reveal.js/css/print/pdf.css"
-        : "../bower_components/reveal.js/css/print/paper.css";
-      document.getElementsByTagName("head")[0].appendChild(link);
-    </script>
-
-    <!--[if lt IE 9]>
-      <script src="bower_components/reveal.js/lib/js/html5shiv.js"></script>
-    <![endif]-->
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../plugin/highlight/monokai.css" />
   </head>
 
   <body>
-    <div style="position: absolute; top: 5px; right: 5px">
-      <img src="../img/HCLDigitalSolutions.png" width="300px" />
-    </div>
-    <div style="position: absolute; bottom: 5px; left: 5px">
-      <img src="../img/HCLLabs.png" width="150px" />
-    </div>
-    <header>
-      <!-- Header logo here  -->
-      <a href="../"
-        ><img src="../img/taologo128.png" alt="Notessensei" height="64px"
-      /></a>
-    </header>
     <div class="reveal">
       <div class="slides">
         <section data-markdown="slides/index.md"></section>
 
         <section>
           <section data-markdown="slides/slide-1.md"></section>
-
           <section
             data-background="slides/img/wordle.png"
             data-background-size="contain"
           ></section>
-
-          <section data-html="slides/stephan.html"></section>
-
-          <section data-html="slides/lab.html"></section>
+          <section data-markdown="../shared/stephan.html"></section>
+          <section data-markdown="../shared/lab.html"></section>
         </section>
 
         <section>
           <section data-markdown="slides/slide-4.md"></section>
-
-          <section data-html="slides/slide-4-1.html"></section>
-
+          <section data-markdown="slides/slide-4-1.html"></section>
           <section data-markdown="slides/slide-4-2.md"></section>
-
           <section data-markdown="slides/slide-4-3.md"></section>
-
           <section data-markdown="slides/slide-4-4.md"></section>
         </section>
 
         <section>
           <section data-markdown="slides/slide-5.md"></section>
-
           <section data-markdown="slides/slide-5-1.md"></section>
-
           <section data-markdown="slides/slide-5-2.md"></section>
-
           <section data-markdown="slides/slide-5-3.md"></section>
         </section>
 
         <section>
           <section data-markdown="slides/slide-6.md"></section>
-
           <section data-markdown="slides/slide-6-1.md"></section>
-
           <section data-markdown="slides/slide-6-2.md"></section>
-
           <section data-markdown="slides/slide-6-5.md"></section>
-
           <section data-markdown="slides/slide-6-3.md"></section>
-
           <section data-markdown="slides/slide-6-4.md"></section>
-
           <section data-markdown="slides/slide-6-6.md"></section>
         </section>
 
         <section>
           <section data-markdown="slides/slide-7.md"></section>
-
           <section data-markdown="slides/slide-7-1.md"></section>
-
           <section data-markdown="slides/slide-7-2.md"></section>
-
           <section data-markdown="slides/slide-7-3.md"></section>
-
           <section data-markdown="slides/slide-7-4.md"></section>
         </section>
 
         <section data-markdown="slides/thank-you.md"></section>
       </div>
     </div>
+    <div style="position: absolute; top: 5px; right: 5px">
+      <img
+        src="../img/HCLDigitalSolutions.png"
+        alt="Digital solutions"
+        width="300px"
+      />
+    </div>
+    <div style="position: absolute; bottom: 5px; left: 5px; z-index: 1000">
+      <a href="#/0">
+        <img src="../img/HCLLabs.png" alt="HCL Labs" width="150px" />
+      </a>
+    </div>
+    <header style="position: absolute; left: 5px; top: 5px; z-index: 1000">
+      <!-- Header logo here  -->
+      <a href="../">
+        <img src="../img/taologo128.png" alt="Notessensei" height="64px" />
+      </a>
+    </header>
 
-    <footer>&copy; 2022 HCL All Rights Reserved</footer>
-
-    <script src="../bower_components/reveal.js/lib/js/head.min.js"></script>
-    <script src="../bower_components/reveal.js/js/reveal.js"></script>
+    <script src="../reveal/reveal.js"></script>
+    <script src="../plugin/zoom/zoom.js"></script>
+    <script src="../plugin/notes/notes.js"></script>
+    <script src="../plugin/search/search.js"></script>
+    <script src="../plugin/markdown/markdown.js"></script>
+    <script src="../plugin/highlight/highlight.js"></script>
     <script>
-      // Full list of configuration options available at:
-      // https://github.com/hakimel/reveal.js#configuration
+      // Also available as an ES module, see:
+      // https://revealjs.com/initialization/
       Reveal.initialize({
         controls: true,
         progress: true,
-        history: true,
         center: true,
+        hash: true,
 
-        transition: "slide", // none/fade/slide/convex/concave/zoom
-
-        // Optional reveal.js plugins
-        dependencies: [
-          {
-            src: "../bower_components/reveal.js/lib/js/classList.js",
-            condition: function () {
-              return !document.body.classList;
-            },
-          },
-          {
-            src: "../bower_components/reveal.js/plugin/markdown/marked.js",
-            condition: function () {
-              return !!document.querySelector("[data-markdown]");
-            },
-          },
-          {
-            src: "../bower_components/reveal.js/plugin/markdown/markdown.js",
-            condition: function () {
-              return !!document.querySelector("[data-markdown]");
-            },
-          },
-          {
-            src: "../bower_components/reveal.js/plugin/highlight/highlight.js",
-            async: true,
-            condition: function () {
-              return (
-                !!document.querySelector("[data-html]") ||
-                !!document.querySelector("pre code") ||
-                !!document.querySelector("[data-markdown]")
-              );
-            },
-            callback: function () {
-              hljs.initHighlightingOnLoad();
-            },
-          },
-          {
-            src: "../bower_components/reveal.js/plugin/zoom-js/zoom.js",
-            async: true,
-          },
-          {
-            src: "../bower_components/reveal.js/plugin/notes/notes.js",
-            async: true,
-          },
-          {
-            src: "../js/loadhtmlslides.js",
-            condition: function () {
-              return !!document.querySelector("[data-html]");
-            },
-          },
-        ],
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [
+          RevealZoom,
+          RevealNotes,
+          RevealSearch,
+          RevealMarkdown,
+          RevealHighlight
+        ]
       });
     </script>
   </body>

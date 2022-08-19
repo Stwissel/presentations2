@@ -1,4 +1,4 @@
-# Run from command line
+## Run from command line
 
 e.g. AppScan
 

@@ -10,6 +10,4 @@
 | Output targets | war, jar, container                  |
 | Special needs  | There's a plugin for that\*          |
 
-<br /><br />
-
 \*or build one

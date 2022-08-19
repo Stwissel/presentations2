@@ -4,7 +4,7 @@
 - access to the environment `${env.SOMEVAR}`
 - Use for dependency groups
 - some have special meaning
-- overwrite with `-Dparamname=otheValue`
+- overwrite with `-Dparamname=otherValue`
 
 ```xml
 <java.version>1.8</java.version>

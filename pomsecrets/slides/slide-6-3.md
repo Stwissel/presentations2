@@ -1,4 +1,4 @@
-# profiles
+## profiles
 
 - cater to specific needs
 - default is off, use command line
@@ -16,7 +16,9 @@
  </profile>
 ```
 
-### Families
+---
+
+## Families
 
 ```xml
 <family>windows</family>

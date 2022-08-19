@@ -1,6 +1,6 @@
-# Keep them current
+## Keep them current
 
-## maven to the rescue
+### maven to the rescue
 
 ```bash
 mvn versions:display-dependency-updates

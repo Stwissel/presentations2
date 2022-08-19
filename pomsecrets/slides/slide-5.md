@@ -1,6 +1,6 @@
-# Maven features
+## Maven features
 
-## you should know
+### you should know
 
 - maven lifecycle
 - parent vs. reactor

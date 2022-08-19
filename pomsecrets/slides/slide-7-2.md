@@ -1,4 +1,4 @@
-# Spotless
+## Spotless
 
 ```xml
 <plugin>

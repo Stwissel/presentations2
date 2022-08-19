@@ -1,6 +1,6 @@
-# Q & A
+## Q & A
 
-![Q & A](slides/img/stickerJavaScript.png)
+![Q & A](../shared/MonkeyBusiness.png)
 
 ## Thank you
 
