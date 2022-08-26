@@ -1,3 +1,3 @@
 # Visual Studio Code
 
-## Plugins Galore
+## Extension Galore
