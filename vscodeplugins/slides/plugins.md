@@ -2,6 +2,12 @@
 
 ---
 
+## [Fix your font](https://www.jetbrains.com/lp/mono/)
+
+![Font](slides/font.png)
+
+---
+
 ## [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 ![GitLens](slides/gitlens.png)
