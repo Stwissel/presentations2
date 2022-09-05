@@ -3,44 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta
-      name="apple-mobile-web-app-status-bar-style"
-      content="black-translucent"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sensei's Talk collection</title>
-    <style>
-      body {
-        font-family: "Jetbrain Mono", "Segoe UI", Tahoma, Geneva, Verdana,
-          sans-serif;
-        margin: 30px;
-      }
-      li {
-        margin-top: 15px;
-        padding: 15px;
-        background-color: #f9e3ba;
-      }
-
-      #content {
-        margin-top: 80px;
-        padding: 25px;
-      }
-
-      a:hover {
-        color: red;
-      }
-
-      ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
+    <link rel="stylesheet" href="assets/index.css" />
   </head>
   <body>
     <div style="position: absolute; top: 5px; right: 5px">
@@ -62,34 +27,39 @@
         All talks are coded in <a href="https://revealjs.com">revealJS</a>, use
         at your own risk
       </p>
-      <ul>
-        <li>
-          <h2><a href="pomsecrets/">POM Secrets</a></h2>
+      <section class="container">
+        <article data-url="pomsecrets/">
+          <h2>POM Secrets</h2>
           Sharing of experience with Apache Maven and what it can do
-        </li>
-        <li>
-          <h2><a href="plantuml/">PlantUML</a></h2>
+        </article>
+        <article data-url="plantuml/">
+          <h2>PlantUML</h2>
           Text driven UML to improve documentation
-        </li>
-        <li>
-          <h2><a href="javastreams/">Java Streams</a></h2>
+        </article>
+        <article data-url="javastreams/">
+          <h2>Java Streams</h2>
           Java8 onwards, from imperative to declarative code
-        </li>
-        <li>
-          <h2><a href="vertxintro/">Introduction to vert.x</a></h2>
+        </article>
+        <article data-url="vertxintro/">
+          <h2>Introduction to vert.x</h2>
           Reactive meets the JVM
-        </li>
-        <li>
-          <h2><a href="vscodeplugins/">Visual Studio Code Plugins</a></h2>
+        </article>
+        <article data-url="vscodeplugins/">
+          <h2>Visual Studio Code Plugins</h2>
           Make your code editor your own!
-        </li>
-      </ul>
-      <p style="text-align: center">
-        Source code, if any, can be found in the
-        <a href="https://github01.hclpnp.com/stephan-wissel/talks-code"
-          >companion repository</a
-        >
-      </p>
+        </article>
+        <article data-url="httpgoodbadugly/">
+          <h2>HTTP The good, the bad and the ugly</h2>
+          Verbs, Return codes, CSP, CORS & more
+        </article>
+      </section>
     </div>
+    <footer>
+      Source code, if any, can be found in the
+      <a href="https://github01.hclpnp.com/stephan-wissel/talks-code">
+        companion repository
+      </a>
+    </footer>
+    <script src="assets/index.js" type="application/javascript"></script>
   </body>
 </html>
