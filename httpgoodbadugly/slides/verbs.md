@@ -22,11 +22,17 @@ You need tools or code for anything other than `GET` and `POST`
 
 ---
 
-## Idempotency
+# Idempotency
 
 Methods can be called [more than once](https://developer.mozilla.org/en-US/docs/Glossary/Idempotent) without changing **server state**
 
 - GET, HEAD, PUT, DELETE, OPTIONS, TRACE
+
+## TRAP: code that changes state on those methods
+
+```bash
+curl http://someurl?action=blowup
+```
 
 ---
 
