@@ -1,0 +1,15 @@
+@startwbs macosFileSystem
+* / macOS File System
+**[#cccccc] /Applications
+**[#cccccc] /bin
+** /etc
+***[#orange] nginx
+***_ hosts
+**[#cccccc] /Users
+***[#ccffff] you
+****[#99ffff] bin
+****[#99ffff] .ssh
+****[#99ffff] Library
+*****[#99ffff] Application Support
+******[#yellow] HCL Notes Data
+@endwbs

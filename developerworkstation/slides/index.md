@@ -1,5 +1,9 @@
-# The beginner's guide to the developer's workstation
+## The beginner's guide
 
-You shalt master your device: file system, tools, scripts, version control
+to the
+
+# developer's workstation
+
+You shalt master your device:<br />file system, tools, scripts, version control
 
 An opinionated guide

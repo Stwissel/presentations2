@@ -1,0 +1,19 @@
+@startwbs LinuxFileSystem
+* / Linux File System
+** /bin
+** /etc
+***[#orange] nginx
+***_ hosts
+**[#cccccc] /home
+***[#cccccc] john
+***[#cccccc] jane
+***[#ccffff] you
+****[#99ffff] bin
+****[#ff9999] .ssh
+** /local
+***[#yellow] /notesdata
+** /opt
+***[#yellow] hcl
+****[#yellow] domino
+****[#yellow] keep
+@endwbs

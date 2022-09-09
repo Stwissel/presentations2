@@ -1,0 +1,19 @@
+@startwbs WindowsFileSystem
+* C:\\
+**[#ffcccc] \\Program Data
+**[#cccccc] \\Program Files [(x86)]
+**[#cccccc] \\Users
+*** Public
+***[#ccffff] you
+****[#ff9999] .ssh
+****[#ccffff] AppData
+*****[#ccffff] Local
+****[#ccffff] cmd
+****[#ccffff] Documents
+****[#ccffff] Downloads
+** \\Windows
+*** System32
+**** drivers
+***** etc
+******_ hosts
+@endwbs
