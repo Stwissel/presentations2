@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Linux Commands Survival Kit</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="white-translucent"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../reveal/reset.css" />
+    <link rel="stylesheet" href="../reveal/reveal.css" />
+    <link rel="stylesheet" href="../reveal/theme/white.css" id="theme" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../plugin/highlight/monokai.css" />
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="slides/index.md"></section>
+
+        <section>
+          <section data-markdown="slides/agenda.md"></section>
+          <section data-markdown="../shared/stephan.html"></section>
+          <section data-markdown="../shared/lab.html"></section>
+        </section>
+
+        <section>
+          <section data-markdown="slides/filesystem.md"></section>
+        </section>
+
+        <section>
+          <section data-markdown="slides/whowhere.md"></section>
+        </section>
+
+        <section>
+          <section data-markdown="slides/common.md"></section>
+        </section>
+
+        <section>
+          <section data-markdown="slides/priviledged.md"></section>
+        </section>
+        <section>
+          <section data-markdown="slides/reference.md"></section>
+        </section>
+
+        <section>
+          <section data-markdown="../shared/thank-you.md"></section>
+        </section>
+      </div>
+    </div>
+    <div style="position: absolute; top: 5px; right: 5px">
+      <img
+        src="../img/HCLDigitalSolutions.png"
+        alt="Digital solutions"
+        width="300px"
+      />
+    </div>
+    <div style="position: absolute; bottom: 5px; left: 5px; z-index: 1000">
+      <a href="#/0">
+        <img src="../img/HCLLabs.png" alt="HCL Labs" width="150px" />
+      </a>
+    </div>
+    <header style="position: absolute; left: 5px; top: 5px; z-index: 1000">
+      <!-- Header logo here  -->
+      <a href="../">
+        <img src="../img/taologo128.png" alt="Notessensei" height="64px" />
+      </a>
+    </header>
+
+    <script src="../reveal/reveal.js"></script>
+    <script src="../plugin/zoom/zoom.js"></script>
+    <script src="../plugin/notes/notes.js"></script>
+    <script src="../plugin/search/search.js"></script>
+    <script src="../plugin/markdown/markdown.js"></script>
+    <script src="../plugin/highlight/highlight.js"></script>
+    <script>
+      // Also available as an ES module, see:
+      // https://revealjs.com/initialization/
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [
+          RevealZoom,
+          RevealNotes,
+          RevealSearch,
+          RevealMarkdown,
+          RevealHighlight
+        ]
+      });
+    </script>
+  </body>
+</html>
