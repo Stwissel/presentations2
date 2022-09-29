@@ -29,6 +29,7 @@
 | ------- | ---------- | --------------------------- |
 | 80      | http       | a unicorn will die          |
 | 443     | https      | a custom web sever could do |
+|         | WebDAV     | http for grownups           |
 |         | s3         | Amazon object store         |
 |         | sharepoint | (for fileuploads)           |
 |         | dropbox    | also 7600, 17603, 17500     |
@@ -42,3 +43,6 @@
 - Can you start and/or access the server?
 - What permission do you have in your target directory?
 - Are the ports open?
+  - traceroute
+  - ping
+  - telnet
