@@ -1,6 +1,6 @@
 # It should be easy
 
-![It should be easy](slides/SimpleTransfer.png)
+![It should be easy](slides/SimpleTransferSolo.png)
 
 ---
 
