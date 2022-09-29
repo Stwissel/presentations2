@@ -129,12 +129,18 @@ jobs:
 
 ---
 
-### Jenkins
+### Jenkins 1/2
 
 [https://plugins.jenkins.io/publish-over-ssh/](https://plugins.jenkins.io/publish-over-ssh/)
 
 ![Jenkins SSH](slides/jenkinsssh.png)
 
-There are [alternatives](https://plugins.jenkins.io/ui/search?sort=relevance&categories=&labels=&view=Tiles&page=1&query=ssh)
+---
 
-Speak to your friendly ~neighbourhood spider~ Jenkins manager
+### Jenkins 2/2
+
+- There are [alternatives](https://plugins.jenkins.io/ui/search?sort=relevance&categories=&labels=&view=Tiles&page=1&query=ssh)
+- curl is always an option
+- GitHub CLI too
+
+Speak to your friendly neighbourhood ~spider~ Jenkins manager
