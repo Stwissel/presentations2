@@ -72,6 +72,8 @@ newman run myCollection.json \
 - Monitors
 - Flows
 
+---
+
 ## References
 
 - [Postman Learning Center](https://learning.postman.com/docs/getting-started/introduction/)
