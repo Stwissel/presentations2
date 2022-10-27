@@ -1,0 +1,13 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<cases xmlns="https://www.gothaminsurance.com/claims"
+    xmlns:p="https://www.gotham-police.gov/crime"
+    xmlns:r="https://www.gothamdaily.com/news">
+
+    <!-- All the damage this vigilante has done -->
+
+    <case id="c-4533" p:id="8796" r:id="hjgfuyf">
+        <title>Explosion in City Hall</title>
+        <p:title>Violation Explosives Act of 2011</p:title>
+    </case>
+
+</cases>

@@ -58,7 +58,7 @@ document.querySelector('#pwaitem');
 - XPath
 
 ```xml
-//books[author='Frank Herbert']
+//book[author='Frank Herbert']
 ```
 
 ---
