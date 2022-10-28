@@ -31,9 +31,25 @@
 
 ---
 
+![JSON](slides/json1.png)
+
+---
+
+![JSON](slides/json2.png)
+
+---
+
 ### YAML
 
 - no < > or { }
 - tabs vs spaces issue
 - indentation dependent (go to level 12)
 - comments
+
+---
+
+![YAML](slides/yaml.png)
+
+---
+
+![XML Sample](slides/xmlns.png)

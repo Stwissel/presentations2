@@ -84,3 +84,27 @@ private Optional<String> generate(
     return Optional.empty();
   }
 ```
+
+---
+
+## Mustache example
+
+```js
+BEGIN:VCARD
+VERSION:3.0
+FN:{{name}}
+EMAIL;type=INTERNET;type=WORK;type=pref:{{email}}
+TEL;type=WORK;type=pref:{{phone}}
+END:VCARD
+
+```
+
+```json
+{
+  "name": "John Doe",
+  "phone": "123445667",
+  "email": "john@doe.org",
+  "languages": ["en", "es"],
+  "vip": false
+}
+```

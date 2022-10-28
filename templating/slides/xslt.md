@@ -94,3 +94,11 @@ Looks easy, similar to CSS selector, can get really complex
         <p class="highlight"><xsl:value-of select="."/></p>
     </xsl:template>
 ```
+
+---
+
+## Wire it up in the head
+
+```xml
+<?xml-stylesheet type="text/xsl" href="BookList.xslt"?>
+```
