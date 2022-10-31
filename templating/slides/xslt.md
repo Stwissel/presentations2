@@ -4,11 +4,31 @@
 - XML Templates
 - XPATH query language
 
-Let's look at a [book list](https://raw.githubusercontent.com/databricks/spark-xml/master/src/test/resources/books.xml)
+---
+
+## Who cares?
+
+XML is for boomers only, isn't it?
+
+![Boomer inside](slides/BoomerInside.png)
+
+---
+
+### Use cases
+
+- RSS / ATOM streams
+- (x)HTML (use [JSoup](https://jsoup.org) to whip it in shape)
+- Excel (after [transforming it](https://github.com/Stwissel/Excel2XML))
+  (Fun exercise: rename a .docx to .zip and have a look)
+- Legacy web services
+- oDATA 2.0
+- eCommerce ([ebXML](http://www.ebxml.org))
 
 ---
 
 ## XPATH
+
+Let's look at a [book list](https://raw.githubusercontent.com/databricks/spark-xml/master/src/test/resources/books.xml)
 
 Looks easy, similar to CSS selector, can get really complex
 
