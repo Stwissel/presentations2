@@ -33,6 +33,33 @@ Looks easy, similar to CSS selector, can get really complex
 
 ---
 
+## How to apply
+
+### Stylesheet reference in XML file
+
+```xml
+<?xml-stylesheet type="text/xsl" href="BookList.xslt"?>
+```
+
+(limited to XSLT 1.0)
+
+### Shell script
+
+```bash
+#!/bin/bash
+# Script to run XSLT transformations
+# Parameters: XML File, XSLT File, Output file
+echo
+echo Source XML      : $1
+echo XSLT Style sheet: $2
+echo Output file     : $3
+echo
+java -jar ~/bin/saxon-he-11.4.jar -s:$1 -xsl:$2 -o:$3
+echo Done!
+```
+
+---
+
 ## XPATH Reference
 
 ![Book cover](slides/XSLT1.png)
@@ -85,11 +112,21 @@ Looks easy, similar to CSS selector, can get really complex
 
 ## More matching
 
+Specializing element value
+
 ```xml
     <xsl:template match="genre[text()='Romance']">
         <p class="romance"><xsl:value-of select="."/></p>
     </xsl:template>
+```
 
+---
+
+### Traversing the tree
+
+![Tree traversal](slides/pathTraversal.png)
+
+```xml
     <xsl:template match="description[../genre='Computer']">
         <p class="highlight"><xsl:value-of select="."/></p>
     </xsl:template>
@@ -97,8 +134,12 @@ Looks easy, similar to CSS selector, can get really complex
 
 ---
 
-## Wire it up in the head
+## many more
 
-```xml
-<?xml-stylesheet type="text/xsl" href="BookList.xslt"?>
-```
+- mode
+- document lookups
+- variables
+
+---
+
+![Book size](slides/XSLT2.png)
