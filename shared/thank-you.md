@@ -1,6 +1,6 @@
 ## Q & A
 
-![Q & A](../shared/MonkeyBusiness.png)
+![Q & A](../img/questions.jpg)
 
 https://github01.hclpnp.com/pages/stephan-wissel/talks/
 
@@ -8,5 +8,7 @@ https://github01.hclpnp.com/pages/stephan-wissel/talks/
 
 # Thank you
 
-- [Slides](https://github01.hclpnp.com/pages/stephan-wissel/talks/)
-- [Blog](https://wissel.net)
+![Sensei](../img/senseibike.jpg)
+
+[Slides](https://github01.hclpnp.com/pages/stephan-wissel/talks/) -
+[Blog](https://wissel.net")
