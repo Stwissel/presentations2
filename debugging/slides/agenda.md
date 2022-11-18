@@ -1,6 +1,6 @@
 # Agenda
 
-- What can vscode debug
-- vscode and chrome/edge
-- setup details
+- console revisited
+- vscode and nodeJS
+- vscode and browser
 - beyond vscode
