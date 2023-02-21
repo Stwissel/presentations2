@@ -1,0 +1,12 @@
+header {
+  color: white;
+  background-image: linear-gradient(to right, #5f1ebe, #3c91ff);
+  height: 100px;
+  margin: 10px 20px;
+  border-radius: 5px;
+}
+
+header h1 {
+  color: white !important;
+  text-align: center;
+}
