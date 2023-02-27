@@ -1,11 +1,19 @@
 ## Claims
 
 - Faster deliverables
-- Betterqualitycode
-- Sharedknowledge
+- Better quality code
+- Shared knowledge
 - Improved team communication
-- Personalgrowth
+- Personal growth
 - "You are not alone"
+
+---
+
+## Risk management
+
+- No single point of screw up
+- Low barrier to understand code
+- Avoid hold-up of single developer
 
 ---
 

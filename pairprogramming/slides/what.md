@@ -11,8 +11,8 @@
 
 ---
 
-## What it **NOT** is
+## What it's **NOT**
 
 - a Code review for a pull request
-- a Scrum cermony
+- a Scrum cer-Money
 - a Waste of time

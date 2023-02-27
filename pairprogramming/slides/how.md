@@ -2,11 +2,15 @@
 
 ---
 
-## How exatly?
+## How exactly?
 
 - Time boxed trial
 - Track pairing
 - Measure results
+- Frequent role switch
+- daily but not whole day (90min or less per session)
+  - start with one session a day
+  - increase with confidence
 
 ---
 
@@ -19,17 +23,19 @@
 
 ---
 
-## Tooling
+## SUggested Tooling
 
-- GitHub
-- Teams
-- Whiteboard
+- GitHub - github.com, github01.pnphcl.com
+- Teams (or Sametime, or your favourite audio)
+- Whiteboard (pyhsical or digital)
+- VSCode (Code & Documentation)
 - [Liveshare](https://code.visualstudio.com/learn/collaboration/live-share) in VSCode ([download](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare))
-- Jira
+- Jira (We love it, don't we)
 
 ---
 
 ## Next action
 
 - starts at next sprint
-- pick your tickes
+- pick your tickets
+- pick a co-pilot
