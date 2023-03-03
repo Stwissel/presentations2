@@ -1,3 +1,4 @@
 {
-    "xml.codeLens.enabled": true
+    "xml.codeLens.enabled": true,
+    "liveServer.settings.port": 5501
 }

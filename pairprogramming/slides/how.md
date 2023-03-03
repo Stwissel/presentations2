@@ -23,14 +23,20 @@
 
 ---
 
-## SUggested Tooling
+## Suggested Tooling
 
 - GitHub - github.com, github01.pnphcl.com
 - Teams (or Sametime, or your favourite audio)
-- Whiteboard (pyhsical or digital)
+- Whiteboard (pyhsical or [digital](https://marketplace.visualstudio.com/items?itemName=lostintangent.vsls-whiteboard), or [digital](https://www.microsoft.com/en-sg/microsoft-365/microsoft-whiteboard/digital-whiteboard-app) )
 - VSCode (Code & Documentation)
 - [Liveshare](https://code.visualstudio.com/learn/collaboration/live-share) in VSCode ([download](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare))
 - Jira (We love it, don't we)
+
+---
+
+## Jira
+
+![Jira field](slides/img/Copilot.png)
 
 ---
 
