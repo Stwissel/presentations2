@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>MkDocs</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="white-translucent"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../reveal/reset.css" />
+    <link rel="stylesheet" href="../reveal/reveal.css" />
+    <link rel="stylesheet" href="../reveal/theme/white.css" id="theme" />
+    <link rel="stylesheet" href="../reveal/hcllabs.css" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../plugin/highlight/monokai.css" />
+  </head>
+
+  <body>
+    <div class="reveal">
+      <header><h1>HCLLabs MkDocs Usage</h1></header>
+      <div class="slides">
+        <section>
+        <section data-markdown="slides/index.md"></section>
+        <section data-markdown="slides/agenda.md"></section>
+      </section>
+        <section>
+          <section data-markdown="slides/overview.md"></section>
+        </section>
+        <section>
+          <section data-markdown="slides/problem.md"></section>
+          <section
+          data-background="https://diataxis.fr/_images/diataxis.png"
+          data-background-size="contain"
+        ></section>
+          <section data-markdown="slides/solution.md"></section>
+          <section data-markdown="slides/TheJSON.md"></section>
+          <section data-markdown="slides/The404md.md"></section>
+          <section data-markdown="slides/The404html.md"></section>
+          <section
+          data-background="slides/result.png"
+          data-background-size="contain"
+        ></section>
+        </section>
+
+        <section>
+        <section data-markdown="../shared/thank-you.md"></section>
+      </section>
+      </div>
+    </div>
+
+    </div>
+    <div style="position: absolute; bottom: 5px; left: 88px; z-index: 1000">
+      <a href="#/0">
+        <img src="../img/HCLLabs.png" alt="HCL Labs" width="150px" />
+      </a>
+    </div>
+    <div style="position: absolute; bottom: 5px; left: 5px; z-index: 1000">
+      <!-- Header logo here  -->
+      <a href="../">
+        <img src="../img/taologo128.png" alt="Notessensei" height="64px" />
+      </a>
+    </div>
+
+    <script src="../reveal/reveal.js"></script>
+    <script src="../plugin/zoom/zoom.js"></script>
+    <script src="../plugin/notes/notes.js"></script>
+    <script src="../plugin/search/search.js"></script>
+    <script src="../plugin/markdown/markdown.js"></script>
+    <script src="../plugin/highlight/highlight.js"></script>
+    <script>
+      // Also available as an ES module, see:
+      // https://revealjs.com/initialization/
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [
+          RevealZoom,
+          RevealNotes,
+          RevealSearch,
+          RevealMarkdown,
+          RevealHighlight
+        ]
+      });
+    </script>
+  </body>
+</html>

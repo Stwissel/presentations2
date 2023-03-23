@@ -1,0 +1,22 @@
+# 404.html
+
+```html
+{% extends "main.html" %} {% block extrahead %}
+<link
+  rel="stylesheet"
+  href="/Domino-rest-api/assets/stylesheets/main.975780f9.min.css"
+/>
+<link
+  rel="stylesheet"
+  href="/Domino-rest-api/assets/stylesheets/palette.2505c338.min.css"
+/>
+<link rel="stylesheet" href="/Domino-rest-api/assets/css/keep_style.css" />
+<script
+  src="/Domino-rest-api/assets/js/handle404.js"
+  type="text/javascript"
+></script>
+{% endblock %}
+```
+
+- Hack required
+- changes when mkdocs changes
