@@ -1,7 +1,8 @@
 # 404.html
 
 ```html
-{% extends "main.html" %} {% block extrahead %}
+&lbrace;&percnt; extends "main.html" &percnt;&rbrace; &lbrace;&percnt; block
+extrahead &percnt;&rbrace;
 <link
   rel="stylesheet"
   href="/Domino-rest-api/assets/stylesheets/main.975780f9.min.css"
@@ -15,7 +16,7 @@
   src="/Domino-rest-api/assets/js/handle404.js"
   type="text/javascript"
 ></script>
-{% endblock %}
+&lbrace;&percnt; endblock &percnt;&rbrace;
 ```
 
 - Hack required
