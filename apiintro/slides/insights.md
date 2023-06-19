@@ -4,6 +4,13 @@
 
 ---
 
+### Know your standards
+
+- [CSP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy) (Content Security Policy)
+- [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+
+---
+
 ## Postman
 
 - Use environments
