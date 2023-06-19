@@ -44,3 +44,9 @@ x-eov-operation-handler: routes/pets
 - `x-`tensions
 
 ---
+
+## Taming the [spec](https://spec.openapis.org/oas/latest.html)
+
+- Validate: https://apitools.dev/swagger-parser/online/
+- Visualize: https://swagger.io/tools/swagger-ui/
+- Edit: https://studio.apicur.io/
